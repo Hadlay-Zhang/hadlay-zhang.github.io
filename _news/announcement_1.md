@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-09-30
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Last day of my internship at [Ronovo Surgical](https://www.ronovosurgical.com). emoji! :raised_hands:
