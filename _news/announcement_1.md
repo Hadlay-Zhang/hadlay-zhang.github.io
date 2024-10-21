@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Last day of my internship at [Ronovo Surgical](https://www.ronovosurgical.com). emoji! :raised_hands:
+Last day of my internship at [Ronovo Surgical](https://www.ronovosurgical.com). :raised_hands:

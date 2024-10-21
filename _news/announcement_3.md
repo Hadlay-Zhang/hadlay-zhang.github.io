@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our patent is published. emoji! :tada: [Link](https://patents.google.com/patent/CN116343522B)
+Our patent is published. :tada: [Link](https://patents.google.com/patent/CN116343522B)

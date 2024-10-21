@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started my MS in Computer Science at NYU Tandon. emoji! :star2:
+I started my MS in Computer Science at NYU Tandon. :star2:
