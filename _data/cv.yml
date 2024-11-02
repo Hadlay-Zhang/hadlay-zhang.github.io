@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Zhilin Zhang
-    - name: Date of Birth
-      value: 8th March 2002
     - name: Languages
       value: Chinese, English
 
@@ -55,3 +53,9 @@
         - Image Captioning.
     - title: LLM-agent.
       items:
+
+- title: Others
+  type: map
+  contents:
+    - name: Programming
+      value: C/C++, Python, Shell, PHP 
