@@ -51,8 +51,10 @@
       items:
         - Visual Question Answering.
         - Image Captioning.
-    - title: LLM-agent.
+    - title: LLM Agents.
       items:
+        - Multi-agent System.
+        - Optimization.
 
 - title: Others
   type: map
