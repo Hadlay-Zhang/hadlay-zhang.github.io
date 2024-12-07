@@ -19,6 +19,6 @@ My name is Zhilin Zhang, and I am a Master's student in Computer Science at NYU 
 
 My research interests focus on developing more capable and intelligent AI systems through two main directions:
 
-a) **Multi-modal AI**, particularly Visual Question Answering, Image Captioning, and Video Understanding tasks that enable AI systems to process and reason about information across different modalities
+a) **Multi-modal AI**, particularly domains like Visual Question Answering and Image Captioning that enable AI systems to process and reason about information across different modalities.
 
-b) **LLM-based Agents**, specifically multi-agents that collaborate and coordinate to accomplish complex tasks.
+b) **LLM-based Agents**, specifically multi-agents that collaborate and coordinate to solve real-world problems, with a focus on optimization and adaptability.
