@@ -59,14 +59,15 @@
   contents:
     - title: Multi-modal Machine Learning.
       items:
-        - Visual Question Answering.
+        - VQA, MedVQA.
         - Image Captioning.
     - title: LLM Agents.
       items:
         - Multi-agent System.
+        - Optimization.
 
 - title: Others
   type: map
   contents:
     - name: Programming Skills
-      value: C/C++, Python, Shell, PHP 
+      value: C/C++, Python, PHP, Java, Shell
