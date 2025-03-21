@@ -19,7 +19,7 @@ Hi! I am a Master's student in Computer Science at NYU Tandon. Previously, I obt
 
 My research interests focus on developing more capable and reliable AI systems through two main directions:
 
-a) **Multi-modal AI**, especially in the context of human-like perception and reasoning ability, and its application in the domains like Visual Question Answering and Image Captioning.
+a) **Multi-modal AI**, especially in the context of human-like perception and reasoning ability in different modalities (vision, language, audio and so on), and its application in the domains like (Medical) Visual Question Answering, and Image Captioning.
 
 b) **LLM-based Agents**, specifically multi-agent systems with dynamic communication protocols and task decomposition mechanisms that can collaborate and coordinate to solve complex real-world problems.
 
