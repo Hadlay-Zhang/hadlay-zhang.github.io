@@ -71,3 +71,9 @@
   contents:
     - name: Programming Skills
       value: C/C++, Python, PHP, Java, Shell
+
+- title: Services
+  type: map
+  contents:
+    - name: Conference Reviewing
+      value: IJCNN 2025
