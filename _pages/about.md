@@ -23,4 +23,4 @@ a) **Multi-modal AI**, especially in the context of human-like perception and re
 
 b) **LLM-based Agents**, specifically multi-agent systems with dynamic communication protocols and task decomposition mechanisms that can collaborate and coordinate to solve complex real-world problems.
 
-<!-- <p style="color: red;">I am actively looking for 2025 summer research interns. Please contact me if you have relevant opportunities!</p> -->
+<p style="color: red;">I am actively looking for a 2026 PhD position. Please contact me if you have relevant opportunities!</p>
