@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm a Master student in Computer Science at [NYU Tandon](https://engineering.nyu.edu). Previously, I obtained my Bachelor of Engineering degree in Computer Science from [Tongji University](https://en.tongji.edu.cn/p/#/).
+Hi! I'm a Master student in Computer Science at [NYU Tandon](https://engineering.nyu.edu). Previously, I obtained my Bachelor of Engineering degree in Computer Science from [Tongji University](https://en.tongji.edu.cn/p/#/). Currently, I'm working as a Research Intern at [Stony Brook University](https://www.stonybrook.edu), advised by Prof. [Chenyu You](https://chenyuyou.me/index.html).
 
 My research interests focus on developing more capable and reliable AI systems through two main directions:
 
