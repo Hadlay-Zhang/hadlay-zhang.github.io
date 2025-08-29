@@ -20,9 +20,11 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Summer Research Intern
+    - title: Research Intern
       institution: Stony Brook University, New York, USA
       year: May 2025 - Present
+      description:
+        - Research in Multi-agent systems and AI4Research.
 
     - title: Teaching Assistant
       institution: New York University, New York, USA
