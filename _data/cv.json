@@ -1,152 +1,135 @@
-{
-  "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
-    },
-    "profiles": [
+[
+  {
+    "title": "General Information",
+    "type": "map",
+    "contents": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "name": "Full Name",
+        "value": "Zhilin Zhang"
       },
       {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "name": "Languages",
+        "value": "Chinese, English"
       }
     ]
   },
-  "work": [],
-  "education": [
-    {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
-    }
-  ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
-  "publications": [
-    {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
-}
+  {
+    "title": "Education",
+    "type": "time_table",
+    "contents": [
+      {
+        "title": "Master of Science in Computer Science",
+        "institution": "New York University, New York, USA",
+        "year": "2024 - 2026"
+      },
+      {
+        "title": "Bachelor of Engineering in Computer Science",
+        "institution": "Tongji University, Shanghai, China",
+        "year": "2020 - 2024"
+      }
+    ]
+  },
+  {
+    "title": "Experience",
+    "type": "time_table",
+    "contents": [
+      {
+        "title": "Research Intern",
+        "institution": "Stony Brook University, New York, USA",
+        "year": "May 2025 - Present",
+        "description": [
+          "Research in Multi-agent systems and AI4Research."
+        ]
+      },
+      {
+        "title": "Teaching Assistant",
+        "institution": "New York University, New York, USA",
+        "year": "Jan 2025 - May 2025",
+        "description": [
+          "Teaching Assistant for CS-GY 6233 Operating Systems (Graduate Level)"
+        ]
+      },
+      {
+        "title": "Graduate Research Assistant (Remote)",
+        "institution": "University College London",
+        "year": "Oct 2024 - Present",
+        "description": [
+          "Research in NL2SQL and LLM agents."
+        ]
+      },
+      {
+        "title": "Research Assistant",
+        "institution": "TJ-AClab, Tongji University, Shanghai, China",
+        "year": "Jan 2024 - Jun 2024",
+        "description": [
+          "Research in Medical Visual Question Answering."
+        ]
+      },
+      {
+        "title": "Research and Development Intern",
+        "institution": "Momenta, Shanghai, China",
+        "year": "Sep 2023 - Jan 2024",
+        "description": []
+      },
+      {
+        "title": "Assistant Software Engineer",
+        "institution": "Ronovo Surgical, Shanghai, China",
+        "year": "June 2023 - Sep 2023",
+        "description": []
+      },
+      {
+        "title": "Research Assistant",
+        "institution": "Shanghai Research Institute for Intelligent Autonomous Systems, Tongji University, Shanghai, China",
+        "year": "Jun 2022 - Jun 2023",
+        "description": [
+          "Research in smart parking solution based on vehicle re-identification, spatial-temporal correlation.",
+          "Research in Driver Takeover."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Research Interests",
+    "type": "nested_list",
+    "contents": [
+      {
+        "title": "Multi-modal Machine Learning.",
+        "items": [
+          "VQA, MedVQA.",
+          "Image Captioning."
+        ]
+      },
+      {
+        "title": "LLM Agents.",
+        "items": [
+          "Multi-agent System.",
+          "Optimization."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Others",
+    "type": "map",
+    "contents": [
+      {
+        "name": "Programming Skills",
+        "value": "C/C++, Python, PHP, Java, Shell"
+      }
+    ]
+  },
+  {
+    "title": "Services",
+    "type": "map",
+    "contents": [
+      {
+        "name": "Conference Reviewing",
+        "value": "IJCNN 2025, ACML 2025"
+      },
+      {
+        "name": "Journal Reviewing",
+        "value": "EAAI"
+      }
+    ]
+  }
+]

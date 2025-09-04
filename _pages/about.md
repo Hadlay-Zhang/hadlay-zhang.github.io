@@ -21,7 +21,7 @@ b) **LLM-based Agents**, specifically multi-agent systems with dynamic communica
 
 Latest News
 ======
-- **[2025-08-26]** Our paper "PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent LLMs" has been released! 👉 [arXiv](https://arxiv.org/abs/2508.17188) | [Code](https://github.com/Y-Research-SBU/PosterGen) | [Website](https://y-research-sbu.github.io/PosterGen)
+- **[2025-08-26]** Our paper "PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent LLMs" has been released! 👉 [arXiv](https://arxiv.org/abs/2508.17188) [Code](https://github.com/Y-Research-SBU/PosterGen) [Website](https://y-research-sbu.github.io/PosterGen)
 - **[2025-05-01]** Started as Research Intern at [Stony Brook University](https://www.stonybrook.edu) 🚀
 - **[2025-03-31]** Two papers were accepted by [IJCNN 2025](https://2025.ijcnn.org). 🎉
 - **[2025-01-21]** Worked as Teaching Assistant for NYU Tandon CS-GY 6233: Intro to OS.

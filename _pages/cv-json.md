@@ -1,17 +1,18 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv-json/
-author_profile: false
+permalink: /cv/
+author_profile: true
 redirect_from:
-  - /resume-json
+  - /resume
+  - /cv-json/
 ---
 
 {% include base_path %}
 
-{% include cv-template.html %}
-
-<div class="cv-download-links">
-  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
-  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
+<div style="text-align: center; margin-bottom: 2em;">
+  <h1><a href="{{ base_path }}/files/CV.pdf" target="_blank" style="text-decoration: none; color: inherit;">CV</a></h1>
+  <p><a href="{{ base_path }}/files/CV.pdf" class="btn btn--primary" target="_blank">Download PDF Version</a></p>
 </div>
+
+{% include cv-template.html %}
