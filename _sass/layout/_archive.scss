@@ -268,28 +268,28 @@
     flex-shrink: 0;
     
     @include breakpoint($small) {
-      width: 100%;
-      text-align: center;
+      width: 160px;
+      margin: 0 auto;
     }
     
     @include breakpoint($medium) {
-      width: 200px;
+      width: 160px;
     }
     
     @include breakpoint($large) {
-      width: 220px;
+      width: 160px;
     }
   }
   
   .pub-img {
-    width: 100%;
+    width: 160px !important;
     height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
     
     &:hover {
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
     }
   }
   
