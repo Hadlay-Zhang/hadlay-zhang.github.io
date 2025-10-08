@@ -34,19 +34,19 @@
     "type": "time_table",
     "contents": [
       {
+        "title": "Teaching Assistant",
+        "institution": "New York University, New York, USA",
+        "year": "Jan 2025 - May 2025, Sep 2025 - Present",
+        "description": [
+          "Teaching Assistant for CS-GY 6233 Operating Systems (Graduate Level)"
+        ]
+      },
+      {
         "title": "Research Intern",
         "institution": "Stony Brook University, New York, USA",
         "year": "May 2025 - Present",
         "description": [
           "Research in Multi-agent systems and AI4Research."
-        ]
-      },
-      {
-        "title": "Teaching Assistant",
-        "institution": "New York University, New York, USA",
-        "year": "Jan 2025 - May 2025",
-        "description": [
-          "Teaching Assistant for CS-GY 6233 Operating Systems (Graduate Level)"
         ]
       },
       {
