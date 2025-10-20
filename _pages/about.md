@@ -29,4 +29,4 @@ Latest News
 Services
 ======
 - Conference Reviewer: IJCNN, ACML
-- Journal Reviewer: Pattern Recognition, TNNLS
+- Journal Reviewer: Pattern Recognition, TNNLS, EAAI
