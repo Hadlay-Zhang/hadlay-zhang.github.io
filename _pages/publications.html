@@ -5,88 +5,134 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+  /* Container to shrink the overall width */
+  .publications-wrapper {
+    max-width: 850px;
+    width: 100%;
+  }
+
+  .publication-item {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    align-items: flex-start;
+  }
+
+  /* Image container takes 1/3 width */
+  .publication-image {
+    flex: 0 0 33%;
+    width: 33%;
+  }
+
+  /* Image maintains aspect ratio */
+  .pub-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .publication-content {
+    flex: 1;
+    /* Ensure text doesn't overflow */
+    min-width: 0;
+  }
+
+  .publication-content h3 {
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+    font-size: 1.1em;
+  }
+
+  .publication-content p {
+    margin: 0.2rem 0;
+    line-height: 1.5;
+  }
+</style>
+
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-  <p><sup>*</sup> denotes equal contribution.</p>
+<div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar
+    profile</a>.</div>
+<p><sup>*</sup> denotes equal contribution.</p>
 {% endif %}
 
 {% include base_path %}
 
-<div class="publications-list">
+<div class="publications-list publications-wrapper">
 
-<div class="publication-item" style="margin-bottom: 2em; display: flex; gap: 1.5em;">
-  <div class="publication-image">
-    <img src="/images/postergen.png" alt="PosterGen Framework" class="pub-img">
+  <div class="publication-item">
+    <div class="publication-image">
+      <img src="/images/postergen.png" alt="PosterGen Framework" class="pub-img">
+    </div>
+    <div class="publication-content">
+      <h3>PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent LLMs</h3>
+      <p><strong>Zhilin Zhang</strong><sup>*</sup>, Xiang Zhang<sup>*</sup>, Jiaqi Wei, Yiwei Xu, Chenyu You</p>
+      <p><em>Preprint</em></p>
+      <p>
+        [<a href="https://arxiv.org/abs/2508.17188">paper</a>]
+        [<a href="https://github.com/Y-Research-SBU/PosterGen">code</a>]
+        [<a href="https://y-research-sbu.github.io/PosterGen">website</a>]
+      </p>
+    </div>
   </div>
-  <div class="publication-content">
-    <h3 style="margin-bottom: 0.1em;">PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent LLMs</h3>
-    <p style="margin: 0.1em 0;"><strong>Zhilin Zhang</strong><sup>*</sup>, Xiang Zhang<sup>*</sup>, Jiaqi Wei, Yiwei Xu, Chenyu You</p>
-    <p style="margin: 0.1em 0;"><em>Preprint</em></p>
-    <p style="margin: 0.1em 0;">
-      [<a href="https://arxiv.org/abs/2508.17188">paper</a>]
-      [<a href="https://github.com/Y-Research-SBU/PosterGen">code</a>]
-      [<a href="https://y-research-sbu.github.io/PosterGen">website</a>]
-    </p>
+
+  <div class="publication-item">
+    <div class="publication-image">
+      <img src="/images/OMniBAN.png" alt="OMniBAN Framework" class="pub-img">
+    </div>
+    <div class="publication-content">
+      <h3>Efficient Bilinear Attention-based Fusion for Medical Visual Question Answering</h3>
+      <p><strong>Zhilin Zhang</strong>, Jie Wang, Zhanghao Qin, Ruiqi Zhu, Xiaoliang Gong</p>
+      <p><em>IJCNN 2025</em></p>
+      <p>
+        [<a href="https://arxiv.org/abs/2410.21000">paper</a>]
+      </p>
+    </div>
   </div>
+
+  <div class="publication-item">
+    <div class="publication-image">
+      <img src="/images/ReID.png" alt="Person ReID Framework" class="pub-img">
+    </div>
+    <div class="publication-content">
+      <h3>Enhancing Intra-Modality Compactness in Text-to-Image Person ReID</h3>
+      <p>Zhanghao Qin, Hongming Zhang, <strong>Zhilin Zhang</strong>, Tianyu Wang, Hongtao Mao, Guangzhen Yao</p>
+      <p><em>IJCNN 2025</em></p>
+      <p>
+        <!-- No URLs available -->
+      </p>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <div class="publication-image">
+      <img src="/images/SentiXRL.png" alt="SentiXRL Framework" class="pub-img">
+    </div>
+    <div class="publication-content">
+      <h3>SentiXRL: An advanced large language Model Framework for Multilingual Fine-Grained Emotion Classification in
+        Complex Text Environment</h3>
+      <p>Jie Wang, Yichen Wang, <strong>Zhilin Zhang</strong>, Jianhao Zeng, Kaidi Wang, Zhiyang Chen</p>
+      <p><em>Preprint</em></p>
+      <p>
+        [<a href="https://arxiv.org/abs/2411.18162">paper</a>]
+      </p>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <div class="publication-image">
+      <img src="/images/VQA.png" alt="VQA Framework" class="pub-img">
+    </div>
+    <div class="publication-content">
+      <h3>Enhanced Textual Feature Extraction for Visual Question Answering: A Simple Convolutional Approach</h3>
+      <p><strong>Zhilin Zhang</strong>, Fangyu Wu</p>
+      <p><em>CVCI 2025</em></p>
+      <p>
+        [<a href="https://doi.org/10.1145/3744725.3744731">paper</a>]
+      </p>
+    </div>
+  </div>
+
 </div>
-
-<div class="publication-item" style="margin-bottom: 2em; display: flex; gap: 1.5em;">
-  <div class="publication-image">
-    <img src="/images/OMniBAN.png" alt="OMniBAN Framework" class="pub-img">
-  </div>
-  <div class="publication-content">
-    <h3 style="margin-bottom: 0.1em;">Efficient Bilinear Attention-based Fusion for Medical Visual Question Answering</h3>
-    <p style="margin: 0.1em 0;"><strong>Zhilin Zhang</strong>, Jie Wang, Zhanghao Qin, Ruiqi Zhu, Xiaoliang Gong</p>
-    <p style="margin: 0.1em 0;"><em>IJCNN 2025</em></p>
-    <p style="margin: 0.1em 0;">
-      [<a href="https://arxiv.org/abs/2410.21000">paper</a>]
-    </p>
-  </div>
-</div>
-
-<div class="publication-item" style="margin-bottom: 2em; display: flex; gap: 1.5em;">
-  <div class="publication-image">
-    <img src="/images/ReID.png" alt="Person ReID Framework" class="pub-img">
-  </div>
-  <div class="publication-content">
-    <h3 style="margin-bottom: 0.1em;">Enhancing Intra-Modality Compactness in Text-to-Image Person ReID</h3>
-    <p style="margin: 0.1em 0;">Zhanghao Qin, Hongming Zhang, <strong>Zhilin Zhang</strong>, Tianyu Wang, Hongtao Mao, Guangzhen Yao</p>
-    <p style="margin: 0.1em 0;"><em>IJCNN 2025</em></p>
-    <p style="margin: 0.1em 0;">
-      <!-- No URLs available -->
-    </p>
-  </div>
-</div>
-
-<div class="publication-item" style="margin-bottom: 2em; display: flex; gap: 1.5em;">
-  <div class="publication-image">
-    <img src="/images/SentiXRL.png" alt="SentiXRL Framework" class="pub-img">
-  </div>
-  <div class="publication-content">
-    <h3 style="margin-bottom: 0.1em;">SentiXRL: An advanced large language Model Framework for Multilingual Fine-Grained Emotion Classification in Complex Text Environment</h3>
-    <p style="margin: 0.1em 0;">Jie Wang, Yichen Wang, <strong>Zhilin Zhang</strong>, Jianhao Zeng, Kaidi Wang, Zhiyang Chen</p>
-    <p style="margin: 0.1em 0;"><em>Preprint</em></p>
-    <p style="margin: 0.1em 0;">
-      [<a href="https://arxiv.org/abs/2411.18162">paper</a>]
-    </p>
-  </div>
-</div>
-
-<div class="publication-item" style="margin-bottom: 2em; display: flex; gap: 1.5em;">
-  <div class="publication-image">
-    <img src="/images/VQA.png" alt="VQA Framework" class="pub-img">
-  </div>
-  <div class="publication-content">
-    <h3 style="margin-bottom: 0.1em;">Enhanced Textual Feature Extraction for Visual Question Answering: A Simple Convolutional Approach</h3>
-    <p style="margin: 0.1em 0;"><strong>Zhilin Zhang</strong>, Fangyu Wu</p>
-    <p style="margin: 0.1em 0;"><em>CVCI 2025</em></p>
-    <p style="margin: 0.1em 0;">
-      [<a href="https://doi.org/10.1145/3744725.3744731">paper</a>]
-    </p>
-  </div>
-</div>
-
-</div>
-
-
-
