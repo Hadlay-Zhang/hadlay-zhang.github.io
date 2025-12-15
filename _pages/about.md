@@ -13,11 +13,10 @@ Hi! I am Zhilin (Hadlay) Zhang, a Master student in Computer Science at [New Yor
 
 Research Interests
 ======
-My research interests focus on developing more capable and reliable AI systems through two directions:
+My research focuses on two directions:
 
-a) **Multi-modal AI**, especially in the context of human-like perception and reasoning ability in different modalities (vision, language, audio...), and its application in the domains like Visual Question Answering, and Image Captioning.
-
-b) **LLM-based Agents**, specifically multi-agent systems with dynamic communication protocols and task decomposition mechanisms that can collaborate and coordinate to solve complex real-world problems.
+- **Multimodal Learning**, especially in the context of multimodal reasoning and its application in subtasks like Visual Reasoning, Visual Question Answering and Visual Captioning.
+- **LLM-based Multi-Agent Systems**, specifically collaborative multi-agent systems that enhance multimodal reasoning capabilities to decompose and solve complex real-world tasks, such as scientific workflows and medicine.
 
 Latest News
 ======
