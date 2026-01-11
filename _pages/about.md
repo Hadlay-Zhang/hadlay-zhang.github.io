@@ -32,4 +32,4 @@ Services
 
 Teaching
 ======
-- CS-GY 6233 Introduction to Operating Systems (Spring & Fall 2025, NYU)
+- Teaching Assistant for CS-GY 6233 Introduction to Operating Systems (Spring & Fall 25, Spring 26, NYU)
