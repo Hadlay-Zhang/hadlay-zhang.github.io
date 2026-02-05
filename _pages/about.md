@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am Zhilin (Hadlay) Zhang, a Master student in Computer Science at [New York University](https://engineering.nyu.edu). I obtained my Bachelor of Engineering degree in Computer Science from [Tongji University](https://en.tongji.edu.cn/p/#/). Currently, I'm working as a Research Intern at [Stony Brook University](https://www.stonybrook.edu), advised by Prof. [Chenyu You](https://chenyuyou.me/index.html).
+Hi! I am a final-year Master student in Computer Science at [New York University](https://engineering.nyu.edu). I obtained my Bachelor of Engineering degree in Computer Science from [Tongji University](https://en.tongji.edu.cn/p/#/). Currently, I'm working as a Research Intern at [Stony Brook University](https://www.stonybrook.edu), advised by Prof. [Chenyu You](https://chenyuyou.me/index.html).
 
 <p style="color: red;">🎈🎈 I am actively looking for a 2026 Fall PhD position in US.</p>
 
@@ -23,11 +23,9 @@ Latest News
 - **[2025-08]** Our paper "PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent LLMs" has been released! 👉 [arXiv](https://arxiv.org/abs/2508.17188) / [Code](https://github.com/Y-Research-SBU/PosterGen) /  [Website](https://y-research-sbu.github.io/PosterGen)
 - **[2025-05]** Started as Research Intern at [Stony Brook University](https://www.stonybrook.edu) 🚀
 - **[2025-03]** Two papers were accepted by [IJCNN 2025](https://2025.ijcnn.org).
-- **[2024-10]** Our paper "Enhanced Textual Feature Extraction for Visual Question Answering: A Simple Convolutional Approach" is accepted by [CVCI 2025](https://www.cvci.net) 🎉
 
 Services
 ======
-- Conference Reviewer: IJCNN, ACML
 - Journal Reviewer: Pattern Recognition, EAAI
 
 Teaching
