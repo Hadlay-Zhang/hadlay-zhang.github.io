@@ -16,7 +16,7 @@ Research Interests
 My research focuses on two directions:
 
 - **Multimodal Learning**, especially in the context of multimodal reasoning and its application in subtasks like Visual Reasoning, Visual Question Answering and Visual Captioning.
-- **LLM-based Multi-Agent Systems**, specifically collaborative multi-agent systems that enhance multimodal reasoning capabilities to decompose and solve complex real-world tasks, such as scientific workflows and medicine.
+- **(M)LLM-based Multi-Agent Systems**, specifically collaborative multi-agent systems that enhance multimodal reasoning capabilities to decompose and solve complex real-world tasks, such as scientific workflows and medicine.
 
 Latest News
 ======
