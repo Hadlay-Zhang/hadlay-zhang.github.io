@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a final-year Master student in Computer Science at [New York University](https://engineering.nyu.edu). I'm an incoming PhD student at [University of Illinois Chicago](https://www.uic.edu), advised by Prof. [Lu Cheng](https://lcheng.org). I received my B.Eng. degree in Computer Science from [Tongji University](https://en.tongji.edu.cn/p/#/).
+Hi! I'm an incoming PhD student at [University of Illinois Chicago](https://www.uic.edu), advised by Prof. [Lu Cheng](https://lcheng.org). I received my M.S. degree in Computer Science from [New York University](https://engineering.nyu.edu), and B.Eng. degree in Computer Science from [Tongji University](https://en.tongji.edu.cn/p/#/).
 
 Currently, I'm working as a Research Intern at [Stony Brook University](https://www.stonybrook.edu), advised by Prof. [Chenyu You](https://chenyuyou.me/index.html).
 
