@@ -7,16 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm an incoming PhD student at [Pennsylvania State University](https://www.psu.edu/), advised by Prof. [Lu Cheng](https://lcheng.org). I received my M.S. degree in Computer Science from [New York University](https://engineering.nyu.edu), and B.Eng. degree in Computer Science from [Tongji University](https://en.tongji.edu.cn/p/#/).
-
-Currently, I'm working as a Research Intern at [Stony Brook University](https://www.stonybrook.edu), advised by Prof. [Chenyu You](https://chenyuyou.me/index.html).
+Hi! I'm an incoming PhD student at [Pennsylvania State University](https://www.psu.edu/), advised by Prof. [Lu Cheng](https://lcheng.org). I received my M.S. degree in Computer Science from [New York University](https://engineering.nyu.edu), and B.Eng. degree in Computer Science from [Tongji University](https://en.tongji.edu.cn/p/#/). Previously, I was a Research Intern at [Stony Brook University](https://www.stonybrook.edu), advised by Prof. [Chenyu You](https://chenyuyou.me/index.html).
 
 Research Interests
 ======
 My research focuses on two directions:
 
-- **Multimodal Learning**, especially in the context of multimodal reasoning and its application in subtasks like Visual Reasoning, Visual Question Answering and Visual Captioning.
-- **(M)LLM-based Multi-Agent Systems**, specifically collaborative multi-agent systems that enhance multimodal reasoning capabilities to decompose and solve complex real-world tasks, such as scientific workflows and medicine.
+- **Multimodal Learning**, with a focus on advancing multimodal reasoning and aligning representations to capture intricate real-world concepts.
+- **Multi-Agent Systems**, specifically collaborative multi-agent systems that enhance multimodal reasoning capabilities to decompose and solve complex real-world tasks.
 
 Latest News
 ======
