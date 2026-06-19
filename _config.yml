@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Zhilin (Hadlay) Zhang"
   pronouns         : # example: "he/him"  
-  bio              : "MSCS Student @ NYU"
-  location         : "New York, USA"
-  employer         : "New York University"
+  bio              : "Incoming CS PhD Student @ PSU"
+  location         : "State College, PA, US"
+  employer         : "Pennsylvania State University"
   uri              : # URL
-  email            : "hadlay.zhang@gmail.com" 
+  email            : "hadlay.zhang@gmail.com"
 
   # Academic websites
   academia         : # URL
@@ -38,7 +38,7 @@ author:
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0007-5159-1735"
-  semantic         : # URL
+  semantic         : "https://www.semanticscholar.org/author/Zhilin-Zhang/2351564343"
   pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Zhilin-Zhang-25"
   scopus           : # URL
