@@ -18,6 +18,7 @@ My research focuses on two directions:
 
 Latest News
 ======
+- **[2026-07]** One paper was accepted by [ACM Multimedia 2026](https://2026.acmmm.org/).
 - **[2026-02]** PosterGen was accepted by [CVPR 2026](https://cvpr.thecvf.com) findings.
 - **[2025-08]** Our paper "PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent LLMs" has been released! 👉 [arXiv](https://arxiv.org/abs/2508.17188) / [Code](https://github.com/Y-Research-SBU/PosterGen) /  [Website](https://y-research-sbu.github.io/PosterGen)
 - **[2025-05]** Started as Research Intern at [Stony Brook University](https://www.stonybrook.edu) 🚀
