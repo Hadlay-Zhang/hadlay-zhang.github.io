@@ -24,9 +24,9 @@ Latest News
 - **[2025-05]** Started as Research Intern at [Stony Brook University](https://www.stonybrook.edu) 🚀
 - **[2025-03]** Two papers were accepted by [IJCNN 2025](https://2025.ijcnn.org).
 
-Services
+Academic Services
 ======
-- Journal Reviewer: Pattern Recognition, EAAI
+- Journal Reviewer: Pattern Recognition, EAAI, IEEE Transactions on Visualization and Computer Graphics
 
 Teaching
 ======
