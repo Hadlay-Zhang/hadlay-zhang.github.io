@@ -27,6 +27,7 @@ Latest News
 Academic Services
 ======
 - Journal Reviewer: Pattern Recognition, EAAI, IEEE Transactions on Visualization and Computer Graphics
+- Conference Reviewer: WACV 2027
 
 Teaching
 ======
