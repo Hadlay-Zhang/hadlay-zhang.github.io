@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm an incoming PhD student at [Pennsylvania State University](https://www.psu.edu/), advised by Prof. [Lu Cheng](https://lcheng.org). I received my M.S. degree in Computer Science from [New York University](https://engineering.nyu.edu), and B.Eng. degree in Computer Science from [Tongji University](https://en.tongji.edu.cn/p/#/). Previously, I was a Research Intern at [Stony Brook University](https://www.stonybrook.edu), advised by Prof. [Chenyu You](https://chenyuyou.me/index.html).
+Hi! I'm a CS PhD student at [Pennsylvania State University](https://www.psu.edu/), advised by Prof. [Lu Cheng](https://lcheng.org). I received my M.S. degree in Computer Science from [New York University](https://engineering.nyu.edu), and B.Eng. degree in Computer Science from [Tongji University](https://en.tongji.edu.cn/p/#/). Previously, I was a Research Intern at [Stony Brook University](https://www.stonybrook.edu), advised by Prof. [Chenyu You](https://chenyuyou.me/index.html).
 
 Research Interests
 ======
