@@ -10,6 +10,6 @@ redirect_from:
 
 {% include base_path %}
 
-<p>You can find my <a href="{{ base_path }}/files/CV.pdf" target="_blank">CV</a> here.</p>
+<p>You can find my <a href="{{ base_path }}/files/CV.pdf" target="_blank">CV</a> here (last updated September 2026).</p>
 
 {% assign cv = site.data.cv %}
