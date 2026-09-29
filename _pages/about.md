@@ -31,4 +31,5 @@ Academic Services
 
 Teaching
 ======
-- Teaching Assistant for CS-GY 6233 Introduction to Operating Systems (Spring & Fall 25, Spring 26, NYU)
+- Teaching Assistant for CS-GY 6233 Introduction to Operating Systems (Spring & Fall 25, Spring 26) <img class="teaching-logo teaching-logo--nyu" src="{{ "/images/nyu-logo.svg" | relative_url }}" alt="NYU" width="68" height="24">
+- Teaching Assistant for ICDS Rising Researcher Workshop (Fall 26) <img class="teaching-logo teaching-logo--psu" src="{{ "/images/psu-logo.svg" | relative_url }}" alt="Penn State University" width="259" height="82">
