@@ -2,6 +2,17 @@
 
 <!-- start custom head snippets -->
 
+<!-- Apply the saved (or system) theme before first paint to avoid a light flash in dark mode -->
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem("theme");
+      var dark = saved === "dark" || ((saved !== "light") && window.matchMedia("(prefers-color-scheme: dark)").matches);
+      if (dark) document.documentElement.setAttribute("data-theme", "dark");
+    } catch (e) {}
+  })();
+</script>
+
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css" />
 

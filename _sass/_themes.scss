@@ -7,15 +7,16 @@
    ========================================================================== */
 
 /* Used to set the size for <em> */
-$doc-font-size              : 16;
+$doc-font-size              : 17;
 
 /* Paragraph indention */
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
-/* System typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+/* Typefaces: Newsreader carries the reading text, Hanken Grotesk the interface
+   (loaded from Google Fonts in _includes/head.html, system fonts as fallback) */
+$serif                      : "Newsreader", Charter, "Iowan Old Style", Georgia, "Times New Roman", serif;
+$sans-serif                 : "Hanken Grotesk", -apple-system, "Segoe UI", "Helvetica Neue", Roboto, Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* Sans serif typefaces */
@@ -35,13 +36,33 @@ $type-size-2                : 1.953em;  // ~31.248px
 $type-size-3                : 1.563em;  // ~25.008px
 $type-size-4                : 1.25em;   // ~20px
 $type-size-5                : 1em;      // ~16px
-$type-size-6                : 0.75em;   // ~12px
-$type-size-7                : 0.6875em; // ~11px
-$type-size-8                : 0.625em;  // ~10px
+$type-size-6                : 0.82em;   // ~14px
+$type-size-7                : 0.75em;   // ~12.75px
+$type-size-8                : 0.68em;   // ~11.5px
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
+$global-font-family         : $serif;
+$header-font-family         : $serif;
 $caption-font-family        : $serif;
+
+/* ==========================================================================
+   Layout and spacing tokens
+   ========================================================================== */
+
+:root {
+    --page-gutter               : clamp(1.25rem, 0.5rem + 3.2vw, 2.5rem);
+    --sidebar-width             : 15rem;
+    --column-gap                : clamp(2rem, 1rem + 4vw, 4.5rem);
+    --content-max-width         : 58rem;
+
+    /* One column on narrow screens, sidebar plus content from $large up */
+    --page-max-width            : calc(var(--content-max-width) + 2 * var(--page-gutter));
+
+    /* Vertical rhythm: between sections, between a heading and its content,
+       and between items inside a section */
+    --space-section             : clamp(2.25rem, 1.6rem + 2.4vw, 3.5rem);
+    --space-heading             : clamp(0.9rem, 0.7rem + 0.8vw, 1.25rem);
+    --space-item                : clamp(1.75rem, 1.3rem + 1.8vw, 2.5rem);
+}
 
 /* ==========================================================================
    Breakpoints
@@ -103,3 +124,13 @@ $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
    
+
+/* ==========================================================================
+   Page frame from the large breakpoint up
+   ========================================================================== */
+
+@include breakpoint($large) {
+    :root {
+        --page-max-width        : calc(var(--sidebar-width) + var(--column-gap) + var(--content-max-width) + 2 * var(--page-gutter));
+    }
+}

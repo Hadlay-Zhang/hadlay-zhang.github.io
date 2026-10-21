@@ -2,9 +2,9 @@
    BASE ELEMENTS
    ========================================================================== */
 html {
-  /* sticky footer fix */
-  position: relative;
-  min-height: 100%;
+  /* keep the browser from inflating text on small screens */
+  -webkit-text-size-adjust: 100%;
+          text-size-adjust: 100%;
 }
 
 body {
@@ -12,11 +12,21 @@ body {
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
-  margin: 0;
+  /* the footer follows the content in normal flow and sits at the bottom of
+     short pages */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  margin: 0 !important; /* the footer used to be absolutely positioned and main.js
+                           reserved its height with an inline margin-bottom */
   padding: $masthead-height 0 0;
-  padding-bottom: 9em;
   font-family: $global-font-family;
-  line-height: 1.5;
+  font-size: 1.125rem;
+  line-height: 1.62;
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -24,11 +34,23 @@ body {
   }
 }
 
+::-moz-selection {
+  color: var(--global-text-color);
+  background: var(--global-selection-bg);
+}
+
+::selection {
+  color: var(--global-text-color);
+  background: var(--global-selection-bg);
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  text-wrap: balance;
 }
 
 h1 {
@@ -112,16 +134,23 @@ blockquote {
   }
 }
 
-/* links */
+/* links: ink-colored, set apart by a hairline underline that darkens on hover */
 
 a {
-  &:focus {
-    @extend %tab-focus;
-  }
+  color: var(--global-link-color);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+  text-decoration-color: var(--global-link-underline-color);
 
   &:hover,
   &:active {
-    outline: 0;
+    color: var(--global-link-color-hover);
+    text-decoration-color: currentColor;
+  }
+
+  &:focus-visible {
+    @extend %tab-focus;
   }
 }
 
@@ -260,8 +289,8 @@ figcaption {
     transition: $global-transition;
 
     &:hover {
-      color: #000;
-      border-bottom-color: #000;
+      color: var(--global-link-color-hover);
+      border-bottom-color: var(--global-link-color-hover);
     }
   }
 }

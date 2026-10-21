@@ -3,23 +3,11 @@
    ========================================================================== */
 
 .archive {
+  min-width: 0;
   margin-bottom: 2em;
 
-  @include breakpoint($medium) {
-    @include span(12 of 12);
-  }
-
-  @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-  }
-
   a {
-    text-decoration: underline;
-
     &:hover {
-      text-decoration: underline;
-
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
@@ -240,80 +228,6 @@
         margin: 0 auto;
         width: span(7 of 12);
       }
-    }
-  }
-}
-
-
-/*
-   Publications
-   ========================================================================== */
-
-.publications-list {
-  .publication-item {
-    display: flex;
-    align-items: flex-start;
-    
-    @include breakpoint($small) {
-      flex-direction: column;
-      gap: 1em !important;
-      align-items: center;
-    }
-    
-    @include breakpoint($medium) {
-      flex-direction: row;
-      gap: 2em !important;
-      align-items: flex-start;
-    }
-  }
-  
-  .publication-image {
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    
-    @include breakpoint($small) {
-      width: 300px;
-      margin: 0 auto;
-    }
-    
-    @include breakpoint($medium) {
-      width: 300px;
-      align-self: center;
-    }
-    
-    @include breakpoint($large) {
-      width: 300px;
-      align-self: center;
-    }
-  }
-  
-  .pub-img {
-    width: 300px !important;
-    height: auto;
-    border-radius: 6px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-    
-    &:hover {
-      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-    }
-  }
-  
-  .publication-content {
-    flex: 1;
-    min-width: 0;
-    
-    h3 {
-      margin-bottom: 0.1em;
-      line-height: 1.3;
-    }
-    
-    p {
-      margin: 0.1em 0;
-      line-height: 1.4;
     }
   }
 }

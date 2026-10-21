@@ -5,6 +5,7 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - /publications/
 ---
 
 Hi! I'm a CS PhD student at [Pennsylvania State University](https://www.psu.edu/), advised by Prof. [Lu Cheng](https://lcheng.org). I received my M.S. degree in Computer Science from [New York University](https://engineering.nyu.edu), and B.Eng. degree in Computer Science from [Tongji University](https://en.tongji.edu.cn/p/#/). Previously, I was a Research Intern at [Stony Brook University](https://www.stonybrook.edu), advised by Prof. [Chenyu You](https://chenyuyou.me/index.html).
@@ -23,6 +24,12 @@ Latest News
 - **[2025-08]** Our paper "PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent LLMs" has been released! 👉 [arXiv](https://arxiv.org/abs/2508.17188) / [Code](https://github.com/Y-Research-SBU/PosterGen) /  [Website](https://y-research-sbu.github.io/PosterGen)
 - **[2025-05]** Started as Research Intern at [Stony Brook University](https://www.stonybrook.edu) 🚀
 - **[2025-03]** Two papers were accepted by [IJCNN 2025](https://2025.ijcnn.org).
+{: .news-list}
+
+Selected Publications
+======
+
+{% include publications.html %}
 
 Academic Services
 ======

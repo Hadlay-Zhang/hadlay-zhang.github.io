@@ -1,77 +1,7 @@
----
-layout: archive
-title: "Selected Publications"
-permalink: /publications/
-author_profile: true
----
-
-<style>
-  .publications-wrapper {
-    max-width: 850px;
-    width: 100%;
-  }
-
-  .publication-item {
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 3rem;
-    align-items: flex-start;
-  }
-
-  .publication-image {
-    flex: 0 0 33%;
-    width: 33%;
-  }
-
-  .pub-img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  }
-
-  .publication-content {
-    flex: 1;
-    min-width: 0;
-  }
-
-  .publication-content h3 {
-    margin-top: 0;
-    margin-bottom: 0.3rem;
-    font-size: 1.1em;
-    color: var(--pub-color);
-  }
-
-  .publication-content p {
-    margin: 0.2rem 0;
-    line-height: 1.5;
-  }
-
-  .publication-content a {
-    color: var(--pub-color);
-    text-decoration: none;
-  }
-
-  .publication-content a:hover {
-    text-decoration: underline;
-  }
-
-  :root {
-    --pub-color: #0366d6;
-  }
-
-  html[data-theme="dark"] {
-    --pub-color: #58a6ff;
-  }
-</style>
-
 {% if site.author.googlescholar %}
 <div class="wordwrap">The full list of my publications is also available on my <a href="{{site.author.googlescholar}}">Google Scholar</a> profile.</div>
 <p><sup>*</sup> denotes equal contribution.</p>
 {% endif %}
-
-{% include base_path %}
 
 <div class="publications-list publications-wrapper">
 

@@ -3,40 +3,40 @@
    ========================================================================== */
 
 #main {
-  @include container;
-  @include clearfix;
-  margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
-  animation: intro 0.3s both;
-  animation-delay: 0.35s;
+  /* One centered frame: sidebar and content column side by side on wide
+     screens, stacked on narrow ones. Everything inside is sized by the
+     layout tokens in _themes.scss. */
+  flex: 1 0 auto;
+  width: 100%;
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+  padding: unquote("clamp(1.5rem, 1rem + 2.5vw, 3rem)") var(--page-gutter) var(--space-section);
+  animation: intro 0.4s both;
 
-  @include breakpoint($x-large) {
-    max-width: $x-large;
+  @include breakpoint($large) {
+    display: grid;
+    grid-template-columns: var(--sidebar-width) minmax(0, var(--content-max-width));
+    column-gap: var(--column-gap);
+    align-items: start;
   }
 }
 
 .page {
-  @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
-  }
+  min-width: 0;
 
   .page__inner-wrap {
-    @include full();
-
     .page__content,
     .page__meta,
     .page__share {
-      @include full();
+      width: 100%;
     }
   }
 }
 
 .page__title {
   margin-top: 0;
-  line-height: 1;
+  margin-bottom: var(--space-heading);
+  line-height: 1.15;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -63,8 +63,19 @@
     height: 0.85em;
   }
 
+  /* Sections are a heading followed by its content, so the space between
+     sections lives on the heading */
+  h1 {
+    margin: var(--space-section) 0 var(--space-heading);
+    scroll-margin-top: calc(#{$masthead-height} + 1.5rem);
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
 
   h2 {
+    margin-top: calc(var(--space-section) * 0.7);
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
   }
@@ -75,7 +86,7 @@
 
   /* paragraph indents */
   p {
-    margin: 0 0 $indent-var;
+    margin: 0 0 1.1em;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
@@ -86,12 +97,17 @@
     }
   }
 
+  ul, ol {
+    margin: 0 0 1.1em;
+    padding-left: 1.25em;
+
+    li::marker {
+      color: var(--global-text-color-light);
+    }
+  }
+
   a {
-    text-decoration: underline;
-
     &:hover {
-      text-decoration: underline;
-
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
@@ -118,6 +134,42 @@
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
+  }
+}
+
+/* Dated news: the date hangs in its own column beside the text */
+.page__content .news-list {
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    position: relative;
+    margin-bottom: 0.9em;
+    padding-left: 6.25rem;
+
+    > strong:first-child {
+      position: absolute;
+      left: 0;
+      width: 5.25rem;
+      padding-top: 0.2em;
+      color: var(--global-text-color-light);
+      font-family: $sans-serif;
+      font-size: $type-size-6;
+      font-weight: 500;
+      font-variant-numeric: tabular-nums;
+      line-height: 1.5;
+    }
+
+    @include breakpoint(max-width $small) {
+      padding-left: 0;
+
+      > strong:first-child {
+        position: static;
+        display: block;
+        width: auto;
+        padding-top: 0;
+      }
+    }
   }
 }
 

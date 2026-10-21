@@ -8,11 +8,9 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: var(--global-bg-color);
+  /* rem stays 16px at every width: the layout tokens in _themes.scss and the
+     reading size set on body do the scaling */
   font-size: 16px;
-
-  @include breakpoint($medium) {
-    font-size: 18px;
-  }
 
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -23,16 +21,6 @@ html {
 body { margin: 0; }
 
 /* Selected elements */
-
-::-moz-selection {
-  color: #fff;
-  background: #000;
-}
-
-::selection {
-  color: #fff;
-  background: #000;
-}
 
 /* Display HTML5 elements in IE6-9 and FF3 */
 
@@ -72,7 +60,7 @@ a {
 
 /* Apply focus state */
 
-a:focus {
+a:focus-visible {
   @extend %tab-focus;
 }
 

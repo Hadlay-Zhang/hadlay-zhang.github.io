@@ -2,19 +2,15 @@
    DARK THEME
    ========================================================================== */
 
-/* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-
-$background                 : #121414;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+/* Paper and ink swap places with the light theme; the ink is dimmed slightly
+   so long reading stays comfortable on a dark screen. */
+$paper                      : #141517;
+$ink                        : #e9e9e5;
+$ink-muted                  : #a3a8af;
+$hairline                   : #2b2d31;
+$hairline-strong            : #3a3d42;
+$wash                       : #1d1f22;
+$accent                     : #86d3bc;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -27,28 +23,31 @@ $warning-color              : #f89406;
 $border-radius              : 4px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $global-transition          : all 0.2s ease-in-out;
-$masthead-height            : 70px;
-$navicon-width              : 28px;
-$navicon-height             : 4px;
+$masthead-height            : 64px;
+$navicon-width              : 20px;
+$navicon-height             : 2px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$background};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
-    --global-thead-color                : #{$background-lighter};
+    --global-base-color                 : #{$ink};
+    --global-bg-color                   : #{$paper};
+    --global-footer-bg-color            : #{$paper};
+    --global-border-color               : #{$hairline};
+    --global-dark-border-color          : #{$hairline-strong};
+    --global-code-background-color      : #{$wash};
+    --global-code-text-color            : #{$ink};
+    --global-fig-caption-color          : #{$ink-muted};
+    --global-link-color                 : #{$ink};
+    --global-link-color-hover           : #{$accent};
+    --global-link-color-visited         : #{$ink};
+    --global-masthead-link-color        : #{$ink};
+    --global-masthead-link-color-hover  : #{$accent};
+    --global-text-color                 : #{$ink};
+    --global-text-color-light           : #{$ink-muted};
+    --global-thead-color                : #{$wash};
+    --global-accent-color               : #{$accent};
+    --global-link-underline-color       : rgba(233, 233, 229, 0.6);
+    --global-selection-bg               : rgba(134, 211, 188, 0.28);
 }

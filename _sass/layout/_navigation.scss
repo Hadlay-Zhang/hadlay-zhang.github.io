@@ -14,10 +14,6 @@
   padding-left: 2em;
   padding-right: 2em;
   font-family: $sans-serif;
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.30s;
-          animation-delay: 0.30s;
 
   @include breakpoint($large) {
     padding-left: 1em;
@@ -92,7 +88,7 @@
       }
 
       &.current {
-        color: #fff;
+        color: var(--global-bg-color);
         background: var(--global-base-color);
       }
 
@@ -184,6 +180,11 @@
     color: var(--global-masthead-link-color);
     text-decoration: none;
 
+    /* tighter on phones so the brand, CV and theme toggle share one row */
+    @include breakpoint(max-width $small) {
+      margin: 0 0.6rem;
+    }
+
     &:hover {
       color: var(--global-masthead-link-color-hover);
     }
@@ -196,8 +197,12 @@
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: var(--global-base-color);
-    color: #fff;
+    background-color: transparent;
+    color: var(--global-text-color);
+
+    &:focus-visible {
+      @extend %tab-focus;
+    }
     cursor: pointer;
     z-index: 100;
   }
@@ -211,7 +216,6 @@
 
       &:first-child {
         font-weight: bold;
-        text-wrap: wrap;
 
         a {
           margin-left: 0;
@@ -242,8 +246,8 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
-        background: var(--global-border-color);
+        height: 1px;
+        background: var(--global-accent-color);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -268,7 +272,7 @@
     padding: 5px;
     border: 1px solid var(--global-border-color);
     border-radius: $border-radius;
-    background: #fff;
+    background: var(--global-bg-color);
     box-shadow: 0 0 10px rgba(#000, 0.25);
 
     a {
@@ -303,7 +307,7 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: #fff transparent;
+      border-color: var(--global-bg-color) transparent;
       display: block;
       z-index: 1;
     }
@@ -345,13 +349,13 @@
     margin-left: -0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    color: #fff;
+    color: var(--global-bg-color);
     font-weight: bold;
     background: var(--global-base-color);
     border-radius: $border-radius;
 
     &:hover {
-      color: #fff;
+      color: var(--global-bg-color);
     }
   }
 }
@@ -385,13 +389,13 @@
   color: var(--global-text-color-light);
   text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: #fff;
+  background-color: var(--global-bg-color);
   border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    color: var(--global-bg-color);
     font-size: $type-size-6;
     background: var(--global-base-color);
     border-top-left-radius: $border-radius;
@@ -417,7 +421,7 @@
     text-decoration-line: none !important;
 
     &:hover {
-      color: #000;
+      color: var(--global-bg-color);
       background: var(--global-link-color-hover);
     }
   }
