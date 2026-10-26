@@ -137,6 +137,13 @@
   display: none;
   @media screen and (min-width: 1024px) {
     display: block;
+    /* Keep wrapped profile details aligned with the text after the icon. */
+    padding-left: 1.75em;
+    text-indent: -1.75em;
+
+    > i {
+      text-indent: 0;
+    }
   }
 }
 
@@ -245,6 +252,12 @@
 
   li {
     white-space: nowrap;
+
+    @include breakpoint($large) {
+      /* Long labels must fit the sidebar rather than force horizontal scrolling. */
+      white-space: normal;
+      overflow-wrap: anywhere;
+    }
   }
 
   a {
